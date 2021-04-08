@@ -31,7 +31,7 @@ while not start_quiz:
     print("Please answer yes or no.\n")
 
 #Question starts here 
-if question == continue_quiz:  
+if question == continue_quiz:
   print("1. What is a function that a CPU does? (ENTER a, b, c, or d)")
   print("a. A CPU is a chip that executes commands that make up a program")
   print("b. A CPU supplies electricity to the entire computer")
@@ -370,7 +370,7 @@ if question == continue_quiz:
   print("21. What is the function of a graphics card in a computer?")
   print("a. A graphics card supplies electricity to the computer")
   print("b. A graphics card helps the computer cool down better with its fans")
-  print("A graphics card stores long-term storage for the computer")
+  print("c. A graphics card stores long-term storage for the computer")
   print("d. A graphics card primary function is to render graphics\n")
   q21a = input("What is the answer? ")
   while not q21a == "a" and not q21a == "b" and not q21a == "c" and not q21a == "d":
